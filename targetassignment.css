@@ -1,0 +1,324 @@
+.carrier{
+    border: 5px groove red;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 50px;
+    box-shadow: 5px 1px 5px 5px blue, 1px -5px 1px 8px aquamarine, -1px 5px 1px 10px gold ;
+}
+.main{
+    border: 3px groove blue;
+    height: 320px;
+    width: 150px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 5px 5px red inset, 1px 1px 5px 5px blue inset;
+}
+.dogs{
+    border: 2px solid none;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.Horses{
+    border: 2px solid none;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.monkeys{
+    border: 2px solid none;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.lions{
+    border: 2px solid none;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#content1{
+    border: 1px solid rgb(15, 237, 245);
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    background-color: blueviolet;
+    box-shadow: 1px -1px 5px 2px yellow inset, 1px 1px 5px 5px red inset;
+    /* position: absolute; */
+    background-size: cover;
+}
+#content1:hover{
+    background-image: url(dog-puppy-on-garden-royalty-free-image-1586966191.jpg);
+}
+.dog1{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Dog1.jpg);
+    background-size: cover;
+}
+.dog1:hover{
+    transform: scale(1.5);
+}
+.dog2{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg);
+    background-size: cover;
+}
+.dog2:hover{
+    transform: scale(1.5);
+}
+.dog3{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(dog-puppy-on-garden-royalty-free-image-1586966191.jpg);
+    background-size: cover;
+}
+.dog3:hover{
+    transform: scale(1.5);
+}
+.dog4{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Three-Australian-Shepherd-puppies-sitting-in-a-field.jpg);
+    background-size: cover;
+}
+.dog4:hover{
+    transform: scale(1.5);
+}
+#content1:target{
+    visibility: visible;
+}
+#content2{
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    display: grid;
+    margin-left: -501px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    background-color: aquamarine;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 5px red inset, 1px 1px 5px 5px blue inset;
+}
+#content2:hover{
+    background-image: url(brown-horses-running-on-a-beach.jpg);
+}
+.Horse1{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(horse-3.jpg);
+    background-size: cover;
+}
+.Horse1:hover{
+    transform: scale(1.5);
+}
+.Horse2{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(horse2.jpg);
+    background-size: cover;
+}
+.Horse2:hover{
+    transform: scale(1.5);
+}
+.Horse3{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Horse3.jpg);
+    background-size: cover;
+}
+.Horse3:hover{
+    transform: scale(1.5);
+}
+.Horse4{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(brown-horses-running-on-a-beach.jpg);
+    background-size: cover;
+}
+.Horse4:hover{
+    transform: scale(1.5);
+}
+#content2:target{
+    visibility: visible;
+}
+#content3{
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    display: grid;
+    margin-left: -501px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    background-color: blueviolet;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 5px red inset, 1px 1px 5px 5px blue inset;
+}
+#content3:hover{
+    background-image: url(Patas-monkey.jpg);
+}
+.Monkey1{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Monkey1.jpg);
+    background-size: cover;
+}
+.Monkey1:hover{
+    transform: scale(1.5);
+}
+.Monkey2{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Monkey2.jpg);
+    background-size: cover;
+}
+.Monkey2:hover{
+    transform: scale(1.5);
+}
+.Monkey3{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Patas-monkey.jpg);
+    background-size: cover;
+}
+.Monkey3:hover{
+    transform: scale(1.5);
+}
+.Monkey4{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(two-young-baboons-hugging-on-rock-in-zoo.jpg);
+    background-size: cover;
+}
+.Monkey4:hover{
+    transform: scale(1.5);
+}
+#content3:target{
+    visibility: visible;
+}
+#content4{
+    border: 1px solid red;
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    display: grid;
+    margin-left: -501px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+    background-color: brown;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 5px red inset, 1px 1px 5px 5px blue inset;
+}
+#content4:hover{
+    background-image: url(africanlion-005.jpg);
+}
+.Lion1{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Lion.jpg);
+    background-size: cover;
+}
+.Lion1:hover{
+    transform: scale(1.5);
+}
+.Lion2{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Lion1.jpeg);
+    background-size: cover;
+}
+.Lion2:hover{
+    transform: scale(1.5);
+}
+.Lion3{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Lion2.jpg);
+    background-size: cover;
+}
+.Lion3:hover{
+    transform: scale(1.5);
+}
+.Lion4{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    border-radius: 30%;
+    background-image: url(Lion4.jpg);
+    background-size: cover;
+}
+.Lion4:hover{
+    transform: scale(1.5);
+}
+#content4:target{
+    visibility: visible;
+}
