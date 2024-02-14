@@ -313,3 +313,30 @@ body{
 #content4:target{
     visibility: visible;
 }
+
+@media all and (max-width: 1200px) {
+    .carrier{
+        width: 80%;
+        height: 50%;
+    }
+    #content1{
+        width: 54%;
+        height: 41%;
+        left: 31.5%;
+    }
+    #content2{
+        width: 54%;
+        height: 41%;
+        left: 31.5%;
+    }
+    #content3{
+        width: 54%;
+        height: 41%;
+        left: 31.5%;
+    }
+    #content4{
+        width: 54%;
+        height: 41%;
+        left: 31.5%;
+    }
+}
