@@ -34,7 +34,7 @@ body{
     border-radius: 50px 30px;
     padding: 10px;
     box-shadow: 5px 1px 15px 5px blue, 1px -5px 10px 8px aquamarine, -1px 5px 10px 10px gold;
-    animation: 2s carrierAnima ease infinite;
+    animation: 2s carrierAnima ease-out;
 }
 @keyframes carrierAnima {
     from{
