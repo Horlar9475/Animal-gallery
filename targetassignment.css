@@ -340,3 +340,44 @@ body{
         left: 31.5%;
     }
 }
+@media all and (max-width: 800px) {
+    .carrier{
+        width: 90%;
+        height: 60%;
+        display: block;
+        .main{
+            width: 100%;
+            height: 18%;
+            display: flex;
+            flex-direction: row;
+            padding: 15px 20px;
+            .animalName{
+                height: 100%;
+            }
+        }
+    }
+    #content1{
+        width: 78%;
+        height: 41%;
+        left: 10.5%;
+        margin-top: 10px;
+    }
+    #content2{
+        width: 78%;
+        height: 41%;
+        left: 10.5%;
+        margin-top: 10px;
+    }
+    #content3{
+        width: 78%;
+        height: 41%;
+        left: 10.5%;
+        margin-top: 10px;
+    }
+    #content4{
+        width: 78%;
+        height: 41%;
+        left: 10.5%;
+        margin-top: 10px;
+    }
+}
